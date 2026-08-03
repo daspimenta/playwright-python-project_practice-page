@@ -1,18 +1,18 @@
-# 🎭 Playwright com Python
+# 🎭 Playwright with Python
 
-Projeto de estudos de automação de testes utilizando Playwright, Python e Pytest.
+A study project focused on web test automation using Playwright, Python, and Pytest.
 
-## 📚 Objetivo
+## 📚 Objective
 
-Praticar conceitos de automação de testes web com Playwright, incluindo:
+Practice web test automation concepts with Playwright, including:
 
-- Navegação entre páginas
-- Localização de elementos
-- Validações de conteúdo
-- Estruturação de testes com Pytest
-- Versionamento com Git e GitHub
+- Page navigation
+- Element locators
+- Content validation
+- Test structure with Pytest
+- Version control with Git and GitHub
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Technologies Used
 
 - Python
 - Playwright
