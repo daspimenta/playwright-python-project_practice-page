@@ -1,5 +1,4 @@
 from playwright.sync_api import Page, expect
-import time
 
 
 def test_all_locators(page: Page):
