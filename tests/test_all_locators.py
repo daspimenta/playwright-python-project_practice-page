@@ -6,5 +6,3 @@ def test_all_locators(page: Page):
     pw_locator = page.get_by_role("button", name="Test Playwright Locators")
     pw_locator.click()
     
-
-

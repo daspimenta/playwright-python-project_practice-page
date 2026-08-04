@@ -11,4 +11,3 @@ def test_login_successful(page: Page) -> None:
     page.get_by_role("textbox", name="Password: (1234)").press("Enter")
     page.get_by_role("button", name="Login").click()
     expect(page.get_by_text("Login successful!")).to_be_visible()
-    

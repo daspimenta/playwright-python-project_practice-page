@@ -10,6 +10,3 @@ def test_click_radio_button(page: Page):
     radio_b = page.get_by_role("radio", name="Option B")
     radio_b.click()
     expect(radio_b).to_be_checked
-
-    
-    
