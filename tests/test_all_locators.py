@@ -16,8 +16,10 @@ def test_all_locators(page: Page):
     expect(page.get_by_text("Playwright locator: get_by_text()")).to_be_visible()
     expect(page.get_by_text("This text span can be located by its text.")).to_be_visible()
     expect(page.get_by_text("Blue Box")).to_be_visible()
-    
-# get_by_label
-    expect(page.get_by_label())
+    expect(page.get_by_text("Locate form controls by their associated label text.")).to_be_visible()
 
+# get_by_label
+    expect(page.get_by_label("Email Address")).to_be_visible()
+    expect(page.get_by_label("Accept Terms and Conditions")).to_be_visible()
+    
 
