@@ -20,6 +20,17 @@ def test_all_locators(page: Page):
 
 # get_by_label
     expect(page.get_by_label("Email Address")).to_be_visible()
+    page.get_by_label("Email Address").click()   
     expect(page.get_by_label("Accept Terms and Conditions")).to_be_visible()
-    
+    page.get_by_label("Accept Terms and Conditions").click()
+
+# get_by_placeholder
+    page.get_by_placeholder("Search for items...").click()
+    page.get_by_placeholder("Enter your password").click()
+  
+
+
+
+
+
 
