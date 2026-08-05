@@ -27,10 +27,6 @@ def test_all_locators(page: Page):
 # get_by_placeholder
     page.get_by_placeholder("Search for items...").click()
     page.get_by_placeholder("Enter your password").click()
-  
-
-
-
 
 
 
